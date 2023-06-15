@@ -27,7 +27,8 @@ We take [POJ-104](https://arxiv.org/pdf/1409.5718.pdf) dataset on this task as a
 
 Download POJ dataset from [programs.tar.gz](https://drive.google.com/file/d/1x0nucnROMhDDxyJmoUnYWfggRPk9pQUu/view?usp=drive_link) and download POJ fuzzing data from [POJ104.io.tar.gz](https://drive.google.com/file/d/1uLj_d1bKl4HbIos_4p1Fg9Z3jKodAHn-/view?usp=drive_link). 
 ```shell
-mv programs.tar.gz POJ104.io.tar.gz dataset
+mv programs.tar.gz POJ104.io.tar.gz ./dataset
+cd dataset
 tar zxvf programs.tar.gz
 tar zxvf POJ104.io.tar.gz
 mv fuzz output
