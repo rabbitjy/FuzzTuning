@@ -117,9 +117,11 @@ We also provide a pipeline of FuzzTuning on this task in ```./cls/run.sh```.
 
 
 ## Reference
-<pre><code>@article{lu2021codexglue,
-  title={Codexglue: A machine learning benchmark dataset for code understanding and generation},
-  author={Lu, Shuai and Guo, Daya and Ren, Shuo and Huang, Junjie and Svyatkovskiy, Alexey and Blanco, Ambrosio and Clement, Colin and Drain, Dawn and Jiang, Daxin and Tang, Duyu and others},
-  journal={arXiv preprint arXiv:2102.04664},
-  year={2021}
+Please cite our work in your publications if it helps your research:
+
+<pre><code>@article{zhao2023understanding,
+  title={Understanding Programs by Exploiting (Fuzzing) Test Cases},
+  author={Zhao, Jianyu and Rong, Yuyang and Guo, Yiwen and He, Yifeng and Chen, Hao},
+  journal={arXiv preprint arXiv:2305.13592},
+  year={2023}
 }</code></pre>
